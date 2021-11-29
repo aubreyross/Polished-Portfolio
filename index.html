@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aubrey's Professional Portfolio</title>
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Aubrey's Professional Portfolio</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+      </head>
 
 <body>
-
+  <!-- Navigation bar -->
     <nav class="navbar is-link is-fixed-top has-background-black">
         <div class="navbar-brand">
             <div class="navbar-burger burger">
@@ -38,8 +37,8 @@
         </div>
     </nav>
 
-    <!-- HOME PAGE -->
-    <section class="hero is-link is-fullheight has-background-black">
+    <!-- Title page -->
+    <section class="hero is-link is-fullheight">
         <div class="hero-body">
             <div class="container">
                 <p class="text"> Hi,</p>
@@ -50,13 +49,17 @@
     </section>
 
     <!-- About Me Section -->
-    <section class="about" id="about" <h3 class="title is-2">About Me</h3>
+    <section class="about has-background-white" id="about"> 
+        <br>
+        <br>
+        <div class="container">
+        <h3 class="title is-2">ABOUT ME</h3>
         <h4 class="subtitle is-5">Jack of all trades, master of some.</h4>
         <br>
         <article class="media">
             <figure class="media-left">
                 <p class="image is-128x128">
-                    <img src="./images/profile2.jpg" alt="headshot">
+                    <img src="./images/profile2.jpg" alt="profile-picture">
                 </p>
             </figure>
             <div class="media-content">
@@ -69,7 +72,6 @@
                         <br>
                     </p>
                 </div>
-
                 <section class="section" id="skillset">
                     <div class="container">
                         <div class="columns">
@@ -93,109 +95,198 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                        <br>
+                        <br>
                 </section>
-
+            </section>
                 <!-- Portfolio Section -->
-                <section class="portfolio" id="portfolio">
-                    <div class="max-width">
-                        <h2 class="portfolio">PORTFOLIO</h2>
-
-                        <main class="grid">
-                            <article>
-                                <a href="https://konnerhartman.github.io/Fetch-A-Buzz/"><img
-                                        src="./images/project1.jpg"></a>
-                                <div class="text">
-                                    <h3>Fetch A Buzz</h3>
-                                </div>
-                            </article>
-                            <article>
-                                <a href="https://aubreyross.github.io/Random-Password-Generator/"><img
-                                        src="./images/password.jpg"></a>
-                                <div class="text">
-                                    <h3>Random Password Generator</h3>
-                                </div>
-                            </article>
-                            <article>
-                                <a href="https://aubreyross.github.io/Personal-Day-Planner/"><img
-                                        src="./images/dayplanner.jpg"></a>
-                                <div class="text">
-                                    <h3>Personal Day Planner</h3>
-                                </div>
-                            </article>
-                            <article>
-                                <a href="https://aubreyross.github.io/Team-Generator/"><img
-                                        src="./images/team-generator.jpg"></a>
-                                <div class="text">
-                                    <h3>Team Generator</h3>
-                                </div>
-                            </article>
-                            <article>
-                                <a href="https://github.com/aubreyross/Take-Note"><img src="./images/notetaker.jpg"></a>
-                                <div class="text">
-                                    <h3>Take Note</h3>
-                                </div>
-                            </article>
-                            <article>
-                                <a href="https://lux-rentals.herokuapp.com/"><img src="./images/luxrentals.jpg"></a>
-                                <div class="text">
-                                    <h3>LUX Car Rental</h3>
-                                </div>
-                            </article>
-                        </main>
-
-
-                        <!-- Contact Section -->
-                        <section class="contact" id="contact">
+                        <section class="section has-background-black" id="portfolio"> 
                             <div class="container">
-                                <h3 class="title is-3">Let's connect.</h3>
-                                <h4 class="subtitle is-6">pick your poison</h4>
-                            </div>
+                            <h3 class="title is-2 has-text-white">PORTFOLIO</h3>
+                            <h4 class="subtitle is-5">Gallery of my latest work.</h4>
                             <br>
                             <br>
+                            <div class="container">
+                                <div class="columns">
+                                    <div class="column is-4">
+                                        <div class="card">
+                                            <header class="card-header">
+                                                <p class="card-header-title">
+                                                    <span>Fetch A Buzz</span>
+                                                    <span class="is-pulled-right">
+                                                </p>
+                                            </header>
+                                            <div class="card-content">
+                                                <figure class="image">
+                                                    <img src="./images/project1.jpg" alt="Fetch-A-Buzz">
+                                                </figure>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <a href="https://konnerhartman.github.io/Fetch-A-Buzz/"
+                                                    class="card-footer-item">Preview</a>
+                                                <a href="https://github.com/aubreyross/Fetch-A-Buzz"
+                                                    class="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
+                                        </br>
+                                        </br>
 
-                            <nav class="level">
-                                <div class="level-item has-text-centered">
-                                    <div>
-                                        <nav class="level">
-                                            <div class="level-item has-text-centered">
-                                                <div>
-                                                    <p class="header">Write</p>
-                                                    <a href="mailto: aubrey.ross04@gmail.com"
-                                                        class="button is-link has-background-black">EMAIL</a>
-                                                </div>
+                                        <div class="card">
+                                            <header class="card-header">
+                                                <p class="card-header-title">
+                                                    <span>Password Generator</span>
+                                                    <span class="is-pulled-right">
+                                                </p>
+                                            </header>
+                                            <div class="card-content">
+                                                <figure class="image">
+                                                    <img src="./images/password.jpg" alt="Random-Password-Generator">
+                                                </figure>
                                             </div>
-                                            <div class="level-item has-text-centered">
-                                                <div>
-                                                    <p class="header">Message</p>
-                                                    <a href="https://www.linkedin.com/in/aubrey-ross/"
-                                                        class="button is-link has-background-black">LINKEDIN</a>
-                                                </div>
+                                            <footer class="card-footer">
+                                                <a href="https://aubreyross.github.io/Random-Password-Generator/"
+                                                    class="card-footer-item">Preview</a>
+                                                <a href="https://github.com/aubreyross/Random-Password-Generator"
+                                                    class="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="column is-4">
+                                        <div class="card">
+                                            <header class="card-header">
+                                                <p class="card-header-title">
+                                                    <span>Day Planner</span>
+                                                    <span class="is-pulled-right">
+                                                </p>
+                                            </header>
+                                            <div class="card-content">
+                                                <figure class="image">
+                                                    <img src="./images/dayplanner.jpg" alt="Personal-Day-Planner">
+                                                </figure>
                                             </div>
-                                            <div class="level-item has-text-centered">
-                                                <div>
-                                                    <p class="header">View</p>
-                                                    <a href="https://github.com/aubreyross"
-                                                        class="button is-link has-background-black">GITHUB</a>
-                                                </div>
+                                            <footer class="card-footer">
+                                                <a href="https://aubreyross.github.io/Personal-Day-Planner/"
+                                                    class="card-footer-item">Preview</a>
+                                                <a href="https://github.com/aubreyross/Personal-Day-Planner"
+                                                    class="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
+                                        </br>
+                                        </br>
+                                        <div class="card">
+                                            <header class="card-header">
+                                                <p class="card-header-title">
+                                                    <span>Team Generator</span>
+                                                    <span class="is-pulled-right">
+                                                </p>
+                                            </header>
+                                            <div class="card-content">
+                                                <figure class="image">
+                                                    <img src="./images/team-generator.jpg" alt="Team-Generator">
+                                                </figure>
                                             </div>
-                                            <div class="level-item has-text-centered">
-                                                <div>
-                                                    <p class="header">Call</p>
-                                                    <a href="918.520.4324"
-                                                        class="button is-link has-background-black">PHONE</a>
-                                                </div>
-                                            </div>
-                                            <div class="level-item has-text-centered">
-                                                <div>
-                                                    <p class="header">Pass along</p>
-                                                    <a href="./images/Resume.pdf"
-                                                        class="button is-link has-background-black">RESUME</a>
-                                                </div>
-                                            </div>
-                                        </nav>
+                                            <footer class="card-footer">
+                                                <a href="https://aubreyross.github.io/Team-Generator/"
+                                                    class="card-footer-item">Preview</a>
+                                                <a href="https://github.com/aubreyross/Team-Generator"
+                                                    class="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
                                     </div>
 
-                        </section>
+                                    <div class="column is-4">
+                                        <div class="card">
+                                            <header class="card-header">
+                                                <p class="card-header-title">
+                                                    <span>ReadMe Generator</span>
+                                                    <span class="is-pulled-right">
+                                                </p>
+                                            </header>
+                                            <div class="card-content">
+                                                <figure class="image">
+                                                    <img src="./images/readme1.jpg" alt="ReadMe-Generator">
+                                                </figure>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <a href="https://www.youtube.com/watch?v=-_EWXGs4Ehg"
+                                                    class="card-footer-item">Preview</a>
+                                                <a href="https://github.com/aubreyross/ReadMeGenerator"
+                                                    class="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
+                                        </br>
+                                        </br>
+                                        <div class="card">
+                                            <header class="card-header">
+                                                <p class="card-header-title">
+                                                    <span>LUX Rentals</span>
+                                                    <span class="is-pulled-right">
+                                                </p>
+                                            </header>
+                                            <div class="card-content">
+                                                <figure class="image">
+                                                    <img src="./images/lux1.jpg" alt="Lux-Rentals">
+                                                </figure>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <a href="https://lux-rentals.herokuapp.com/"
+                                                    class="card-footer-item">Preview</a>
+                                                <a href="https://github.com/aubreyross/LUX"
+                                                    class="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
+                </section>
+            </section>
+
+                <!-- Contact Section -->
+                <section class="section" id="contact">
+                    <div class="container">
+                        <div class="section-heading">
+                            <div class="container">
+                                <h3 class="title is-3 has-text-black">LET'S CONNECT</h3>
+                                <h4 class="subtitle is-6">drop a line, or two.</h4>
+                    </div>
+                    <br>
+                    <br>
+                    <nav class="level">
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">Write</p>
+                                <a href="mailto: aubrey.ross04@gmail.com"
+                                    class="button is-link has-background-black">EMAIL</a>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">Message</p>
+                                <a href="https://www.linkedin.com/in/aubrey-ross/"
+                                    class="button is-link has-background-black">LINKEDIN</a>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">View</p>
+                                <a href="https://github.com/aubreyross"
+                                    class="button is-link has-background-black">GITHUB</a>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">Call</p>
+                                <a href="918.520.4324" class="button is-link has-background-black">PHONE</a>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p class="heading">Pass along</p>
+                                <a href="./images/Resume.pdf" class="button is-link has-background-black">RESUME</a>
+                            </div>
+                        </div>
+                    </nav>
+            </div>
+
+    </section>
 
 </body>
 
