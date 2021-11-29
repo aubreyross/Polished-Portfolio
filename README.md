@@ -13,10 +13,12 @@ This is my polished professional portfolio. As class progresses and new programm
 * Link to deployed website: 
 ***
 
+### Preview
+![image](https://user-images.githubusercontent.com/87405979/143857356-6ca2b649-f6f5-44e3-a6de-4f48e431c0d1.png)
+***
+
 ### Resources and References
 * Background Image: https://wallpaper-house.com/group/black-geometric-wallpaper/index.php
 * Bulma CSS: https://bulma.io/
 * Documentation: https://bulma.io/documentation/
-* Image Icon:https://www.pikpng.com/pngvi/hhxxTJR_architect-projects-to-try-pinterest-architects-icons-project-icon-black-and-white/
 * Readme: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-* Readme: https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3
