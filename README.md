@@ -10,7 +10,7 @@ This is my polished professional portfolio. As class progresses and new programm
 
 ### Links
 * Link to code: https://github.com/aubreyross/Polished-Portfolio
-* Link to deployed website: https://aubreyross.github.io/Polished-Portfolio/
+* Link to deployed website: https://aubreyross.github.io/Portfolio/
 ***
 
 ### Preview
